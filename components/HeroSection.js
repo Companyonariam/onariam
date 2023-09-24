@@ -13,7 +13,7 @@ export const HeroSection = () => {
                 <h1 className="text-5xl text-gray-500 font-bold mb-8">Where Creativity Meets Digital Transformation</h1>
                 <p className="text-lg font-normal text-gray-500">Welcome to Onariam: Explore a world where creativity knows no bounds as we lead the way in redefining the future of technology and business.</p>
                 <div className="mt-6">
-                    <button className="bg-gray-700 text-white py-3 px-4 rounded-md">Let's Get Started</button>
+                    <button className="bg-gray-700 text-white py-3 px-4 rounded-md">Get Started</button>
                 </div>
             </div>
 
