@@ -38,11 +38,11 @@ export const SectionOne = () => {
                 {
                     gameData?.map((data, id) => {
                         return (
-                            <div className="">
+                            <div className="" key={id}>
                                 {data.currentPlayerTurn}
-                                {Array.from(100).fill(0).map((box) => {
+                                {Array.from(100).fill(0).map((box, id) => {
                                     return (
-                                        <div className="border p-2 h-8 w-8 bg-green-300" key={box}>{box}</div>
+                                        <div className="border p-2 h-8 w-8 bg-green-300" key={id}>{box}</div>
                                     )
                                 })}
                             </div>
