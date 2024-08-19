@@ -6,11 +6,11 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="w-11/12 mx-auto h-fit ">
-      <Header />
+    <main className="w-full sm:w-full md:w-11/12 lg:w-11/12 xl:w-11/12 mx-auto ">
+      {/* <Header /> */}
       <HeroSection />
-      <SectionOne />
-      <SectionTwo />
+      {/* <SectionOne />   */}
+      {/* <SectionTwo /> */}
     </main>
   )
 }
