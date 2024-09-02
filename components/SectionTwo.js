@@ -31,8 +31,8 @@ export const SectionTwo = () => {
     }
 
     return (
-        <div className="w-1/2 mx-auto py-12 my-12">
-            <h1 className="text-3xl font-bold text-gray-500  text-center">Why Onariam ? </h1>
+        <div className="w-full mx-auto py-12 my-12">
+            <h1 className="text-4xl font-semibold text-yellow-100 text-center">Why Onariam ? </h1>
             {
                 features.points?.map((data, index) => {
 

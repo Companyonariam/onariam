@@ -1,7 +1,12 @@
 import './globals.css'
-import { Space_Grotesk } from 'next/font/google'
+import { Inter, Poppins, } from 'next/font/google'
 
-const SpaceGrotesk = Space_Grotesk({ subsets: ['latin'] })
+const font = Poppins({
+  weight: ['100', '200', '300', '400', '500', '600', '700', '800'],
+  style: ['normal'],
+  subsets: ['latin'],
+  display: 'swap',
+})
 
 export const metadata = {
   title: 'Onariam',
@@ -11,7 +16,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={SpaceGrotesk.className}>{children}</body>
+      <body className={font.className}>{children}</body>
     </html>
   )
 }
