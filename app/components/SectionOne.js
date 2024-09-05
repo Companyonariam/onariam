@@ -51,7 +51,7 @@ export const SectionOne = () => {
                 stiffness: 300,
                 repeatDelay: 1
             }}
-            className=" rounded-2xl my-12 p-8 flex items-center justify-center bg-gray-800 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:18px_18px] overflow-hidden ">
+            className=" rounded-2xl my-12 p-8 flex items-center justify-center bg-gray-950 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:18px_18px] overflow-hidden ">
 
             {/* <div className="">
                 {

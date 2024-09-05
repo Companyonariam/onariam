@@ -27,30 +27,39 @@ export const HeroSection = () => {
                 {/* <h1 className=" text-2xl xs:text-xl sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl text-emerald-500 font-semibold mb-6 ">Onariam</h1> */}
                 {/* <h1 className="text-3xl xs:text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-5xl font-bold mb-8 bg-gradient-to-r from-emerald-600 via-teal-400 to-sky-500 bg-clip-text text-transparent">Where Creativity Meets Digital Transformation.</h1> */}
                 {/* <p className="text-lg font-normal text-green-200">Welcome to Onariam: Explore a world where creativity knows no bounds as we lead the way in redefining the future of technology and business.</p> */}
+                <div className="flex flex-row gap-3 [&_*]:shadow-sm">
+                    <div className=" bg-teal-500/70  rounded-full h-4 p-1 w-1/12 animate-pulse transition-allx duration-150 ease-in-out delay-75"></div>
+                    <div className=" bg-yellow-200/70  rounded-full h-4 p-1 w-3/12 animate-pulse transition-allx duration-150 ease-in-out delay-75"></div>
+                    <div className=" bg-teal-500/70  rounded-full h-4 p-1 w-8/12 animate-pulse transition-allx duration-150 ease-in-out delay-75"></div>
 
+                </div>
+                <div className='mt-3'>
+                    <h1 className='text-5xl font-semibold  text-yellow-100'>Discover <span className='text-amber-200'>Onariam</span> SaaS </h1>
+                </div>
 
-                <div className=" w-full flex flex-col items-start justify-between mt-5 relative">
+                <div className=" w-full flex flex-col items-start justify-between  relative">
                     <div className="gap-3 flex flex-col w-full">
-                        {/* <div className="flex flex-row gap-3">
-                            <div className=" bg-teal-500/70 border border-teal-900 rounded-full h-4 p-1 w-4/12 animate-pulse transition-allx duration-150 ease-in-out delay-75"></div>
-                            <div className=" bg-teal-500/70 border border-teal-900 rounded-full h-4 p-1 w-10/12 animate-pulse transition-allx duration-150 ease-in-out delay-75"></div>
-                        </div> */}
+
+                        <div className="flex flex-col gap-3 ">
+                            <div className=" text-amber-100  font-medium  text-2xl "> Invest in Your Success: Our Platform Delivers Value. </div>
+                            <div className=" text-amber-200 font-medium  text-lg "></div>
+                        </div>
                         <div className="flex flex-row gap-3 [&_*]:shadow-sm">
                             <div className=" bg-teal-500/70  rounded-full h-4 p-1 w-1/12 animate-pulse transition-allx duration-150 ease-in-out delay-75"></div>
                             <div className=" bg-yellow-200/70  rounded-full h-4 p-1 w-3/12 animate-pulse transition-allx duration-150 ease-in-out delay-75"></div>
                             <div className=" bg-teal-500/70  rounded-full h-4 p-1 w-8/12 animate-pulse transition-allx duration-150 ease-in-out delay-75"></div>
 
                         </div>
+
+
+
+
                         <div className="flex flex-row gap-3 [&_*]:shadow-sm">
                             <div className=" bg-emerald-200/70   rounded-full h-4 p-1 w-5/12 animate-pulse transition-allx duration-150 ease-in-out delay-75"></div>
                             <div className=" bg-yellow-200/70  rounded-full h-4 p-1 w-3/12 animate-pulse transition-allx duration-150 ease-in-out delay-75"></div>
 
                         </div>
 
-                        <div className="flex flex-col gap-3 ">
-                            <div className=" text-amber-200  font-semibold  text-2xl ">Onariam </div>
-                            <div className=" text-amber-200 font-medium  text-lg ">Where Imagination Meets Innovation </div>
-                        </div>
 
                         <div className=" bg-teal-500/70 [&_*]:shadow-sm rounded-full h-4 p-1 w-6/12 animate-pulse transition-allx duration-300 ease-in-out delay-200 "></div>
 
