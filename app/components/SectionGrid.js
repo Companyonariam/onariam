@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import { motion, useScroll, useSpring } from "framer-motion"
 
-useState
 export const SectionGrid = () => {
     const { scrollYProgress } = useScroll()
     const scaleX = useSpring(scrollYProgress)
@@ -24,7 +23,7 @@ export const SectionGrid = () => {
             {/* <div className="p-2  h-48 bg-teal-600 rounded-xl  shadow-sm  col-span-2  bg-[radial-gradient(#115e59_1px,transparent_1px)] [background-size:16px_16px]">a</div>
             <div className="p-2  h-48 bg-stone-400 shadow-sm rounded-xl   bg-[radial-gradient(#78716c_1px,transparent_1px)] [background-size:16px_16px]">a</div> */}
             <div className="p-10  h-auto bg-yellow-200/40 rounded-lg overflow-hidden  relative  flex items-end justify-end flex-col">
-                <h1 className="text-lg font-semibold text-stone-500  underline underline-offset-8 decoration-dashed">#What&apos;s Ducky&apos;s Motivation </h1>
+                <h1 className="text-lg font-semibold text-stone-500  underline underline-offset-8 decoration-dashed">#What&apos;s Our&apos;s Motivation </h1>
 
                 <h1 className="text-lg font-medium text-teal-600 my-4 z-10 text-right">Conquer the peaks, rise above the falls - every step is a leap toward victory!</h1>
 
