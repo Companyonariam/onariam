@@ -5,9 +5,6 @@ const nextConfig = {
     webpack: (config) => {
         config.resolve.alias['@'] = path.resolve(__dirname, 'app');
         return config;
-    },
-    experimental: {
-        appDir: true,
     }
 }
 

@@ -29,7 +29,7 @@
     ".next/types/**/*.ts",
     "**/*.ts",
     "**/*.tsx"
-, "app/studio/[[...index]]/page.js"  ],
+, "app/studio/[[...index]]/page.js", "sanity.config.js"  ],
   "exclude": [
     "node_modules"
   ]
