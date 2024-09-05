@@ -1,7 +1,7 @@
 "use client"
 import { useState, useEffect } from "react";
 import { motion, useScroll } from "framer-motion"
-
+import { CgEditUnmask, CgLivePhoto } from "react-icons/cg";
 export const SectionOne = () => {
 
     const [Dice, setDice] = useState(null);
@@ -84,7 +84,7 @@ export const SectionOne = () => {
                         stiffness: 200,
                         repeatDelay: 1
                     }}
-                    className=" z-10 text-7xl text-stone-600  font-semibold transform  group-hover:mb-2 group-hover:-rotate-12 transition-all absolute -bottom-5 -right-6 "> 🐣</motion.div>
+                    className=" z-10 text-7xl text-stone-600  font-semibold transform  group-hover:mb-2 group-hover:-rotate-12 transition-all absolute -bottom-5 -right-6 "> <CgEditUnmask className=" stroke-2 stroke-teal-600 text-teal-500 " /></motion.div>
 
 
 
@@ -100,7 +100,7 @@ export const SectionOne = () => {
                         stiffness: 100,
                         repeatDelay: 1
                     }}
-                    className=" z-10 text-3xl text-teal-600  font-semibold transform  group-hover:mb-2 group-hover:-rotate-12 transition-all  "> The Adventure of Ducky</motion.div>
+                    className=" z-10 text-3xl text-teal-600  font-semibold transform  group-hover:mb-2 group-hover:-rotate-12 transition-all  ">Onariam Pet Tracker: Reunite with Your Lost Companion</motion.div>
 
 
                 <motion.div
@@ -115,10 +115,9 @@ export const SectionOne = () => {
                         repeatDelay: 1
                     }}
                     className="text-md font-medium mt-6 text-stone-600 bg-yellow-100/50 ">
-
-                    Ducky, a fearless little duck, discovers a magical compass called the Duckit, which leads him to the Peak of Triumph and the legendary Amulet of Bravery. With courage and the Duckit&apos;s guidance, Ducky overcomes towering cliffs, slippery slopes, and roaring waterfalls. Finally, he reaches the peak, claiming the amulet and proving that no challenge is too great for a determined duck. With the Duckit in wing, Ducky heads home, ready for the next adventure.
+                    Onariam Pet Tracker is a sleek SaaS solution powered by Sanity and Next.js, designed to help pet owners quickly find their lost pets. With real-time location tracking, personalized search campaigns, and an easy-to-use dashboard for uploading pet details, Onariam ensures a fast and efficient process to bring your beloved companion home.
                 </motion.div>
-                <button className="  bg-teal-500/70 hover:bg-yellow-200/70 border border-stone-600 text-stone-800 font-medium px-8 py-2 rounded-full text-sm mt-6  shadow-lg"> Let&apos;s go!</button>
+                <button className="  bg-teal-500/70 hover:bg-yellow-200/70 border border-stone-600 text-stone-800 font-medium px-8 py-2 rounded-full text-sm mt-6  shadow-lg">Coming soon!</button>
 
             </motion.div>
         </motion.div>

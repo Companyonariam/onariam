@@ -1,6 +1,7 @@
 "use client"
 import { useState, useEffect } from "react";
 import { motion, useScroll, useSpring } from "framer-motion"
+import { CgEditUnmask, CgLivePhoto } from "react-icons/cg";
 
 export const SectionGrid = () => {
     const { scrollYProgress } = useScroll()
@@ -27,9 +28,7 @@ export const SectionGrid = () => {
 
                 <h1 className="text-lg font-medium text-teal-600 my-4 z-10 text-right">Conquer the peaks, rise above the falls - every step is a leap toward victory!</h1>
 
-                <div className="group-hover:animate-bounce delay-100  absolute -bottom-6 left-6 flex items-center justify-center  ">
-                    <h1 className="text-7xl font-bold ">🐥</h1>
-                </div>
+
 
             </div>
 
