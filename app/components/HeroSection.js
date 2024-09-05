@@ -1,5 +1,6 @@
 "use client"
 import { motion, useScroll } from "framer-motion"
+import { CgEditUnmask, CgLivePhoto } from "react-icons/cg";
 
 export const HeroSection = () => {
     const { scrollYProgress } = useScroll();
@@ -69,12 +70,13 @@ export const HeroSection = () => {
                     <motion.div
 
 
-                        className="absolute bottom-0 right-0 -mb-14 flex items-center justify-center  ">
+                        className="absolute bottom-0 right-0 -mb-0 flex items-center justify-center  ">
 
                         <motion.div
                             animate={{
-                                y: ["-5px", "10px"],
-                                rotate: ['20deg', '0deg', '-20deg', '0deg']
+                                y: ["10px", "2rem"],
+                                rotate: ['120deg', '60deg'],
+                                scale: [0.6, 1]
                             }}
                             transition={{
                                 duration: 2,
@@ -83,7 +85,8 @@ export const HeroSection = () => {
                                 repeat: Infinity,
                                 repeatDelay: 1
                             }}
-                            className=" z-10 text-8xl font-bold transform   group-hover:mb-2 group-hover:-rotate-12 transition-all">🐤</motion.div>
+                            className=" z-10  font-bold transform transition-all ">
+                        </motion.div>
 
 
                     </motion.div>
